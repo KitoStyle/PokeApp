@@ -1,0 +1,23 @@
+Color de Bulbasaur:
+
+cuerpo: #83eec5/#79d7b3 #62d5b4 #184a4a 
+
+Ojos:#ac0031 #ff6a62
+
+Cebolla: #bdff73 #a4d541 #73ac31
+
+Color de Charmander:
+
+cuerpo: #ff9933 #ffd57b #de5239
+
+Ojos: #08398b #31acee
+
+Fuego: #e63900 #ffd508 #f6a400
+
+Color Squirtel:
+
+Cuerpo: #8bc5cd/#5a8bcd #5a9ca4 #b4e6ee
+
+Caparazon: #bd6a00 #ffe69c #e6ac5a
+
+Ojos: #832900 #101010

@@ -1,0 +1,172 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#3D3530;
+	color:#000;
+	font-family:'Roboto', sans-serif;
+}
+
+p {
+	font-family: ('fuentes/Roboto.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+}
+
+h3 {
+	margin-top:0;
+	font-size:30px;
+	font-weight:normal;
+	
+}
+
+.pokemon .texto{
+	font-size:15px;
+	line-height:20px;
+	text-align:center;
+	color: #fff;
+	text-shadow: #555 2px 2px 3px;
+	grid-column:span 3;
+	margin:10px 10px;
+}
+
+.pokemon .titulo {
+	grid-column:span 3;
+}
+
+.pokemon {
+	clear:none;
+	width:80%;
+	max-width:1000px;
+	margin:auto;
+	font-size:50px;
+	line-height:50px;
+	text-align:center;
+	display:grid;
+	grid-gap:30px;
+	padding-top:15%;
+	grid-template-rows:repeat(1, auto 1fr auto);
+
+}
+
+.pokemon {
+	display:grid;
+	grid-row:span 3;
+	grid-column:span 3;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:subgrid;
+	grid-template-columns:subgrid;
+}
+
+.pokemon .bulbasaur  {
+	border-radius:6px;
+	padding:20px;
+	color: #fff;
+	background: #73ac31;
+	box-shadow:2px 2px 10px rgba(0,0,0,.25);
+	
+
+}
+
+.pokemon .bulbasaur > .titulo{ color:#134417}
+.pokemon .charmander > .titulo{ color:#5c0000}
+.pokemon .squirtle > .titulo{ color:#00484b}
+
+/*.bulbasaur:hover {
+	display: block;
+	padding:25px;
+	color: #fff;
+	background: #62d5b4;
+	box-shadow:2px 2px 10px rgba(0,0,0,.25);
+}*/
+
+.pokemon .charmander {
+	border-radius:5px;
+	padding:20px;
+	color: #fff;
+	background: #de5239;
+	box-shadow:2px 2px 10px rgba(0,0,0,.25);
+
+}
+
+.pokemon .squirtle {
+	border-radius:5px;
+	padding:20px;
+	color: #fff;
+	background: #5a9ca4 ;
+	box-shadow:2px 2px 10px rgba(0,0,0,.25);
+
+}
+
+.pokemon .botonB, .botonC, .botonS {
+	grid-column:span 3;
+	display:grid;
+	padding-top:10px;
+	padding-bottom:10px; 
+	margin-right:80px;
+	margin-left:80px;
+	grid-template-columns:subgrid;
+	justify-content:center;
+}
+
+.pokemon button {
+	margin:-right:20px;
+	text-align:left;
+	border:none;
+	background:none;
+	padding:0;
+	cursor:pointer;
+}
+
+
+.pokemon .botonB:hover {
+	border-radius:10px;
+	background:#a4d541;
+	box-shadow:2px 2px 10px rgba(0,0,0,.25);
+}
+
+.pokemon .botonC:hover {
+	border-radius:10px;
+	background:#ff9933;
+	box-shadow:2px 2px 10px rgba(0,0,0,.25);
+}
+
+.pokemon .botonS:hover {
+	border-radius:10px;
+	background:#5a8bcd;
+	box-shadow:2px 2px 10px rgba(0,0,0,.25);
+}
+
+.imagenes > img {
+	width:200px;
+	display:block;
+	float:left;
+	margin-top:50px
+	margin-left:50px;
+	margin-bottom:50px;
+	padding:0;
+}
+
+.bulbasaur > img {
+	width:80px;
+}
+
+.squirtle > img {
+	width:80px;
+}
+
+
+.charmander > img {
+	width:80px;
+}
+
+
+@media screen and (max-width: 850px){
+	.pokemon {
+		grid-template-columns:repeat(1, 500px);
+	}
+}
